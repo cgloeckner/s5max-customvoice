@@ -9,4 +9,4 @@ mount --bind /mnt/data/audio_custom /mnt/resources/audio_custom
 ```
 NOTE: The mount is discarded on reboot (FIXME)
 
-Place all `ogg`-files on the local machine's cwd and run `upload.sh`.
+Place all `ogg`-files on the local machine's cwd and run `upload.sh`. Note that your robot's private key file and IP address need to be adjusted in the upload-script.
