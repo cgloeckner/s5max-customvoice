@@ -4,7 +4,7 @@ Setup custom audio directory on the robot:
 
 ```[root@rockrobo ]#```
 ```sh
-mkdir -p /mnt/data/audio_custom
+mkdir -p /mnt/data/audio_custom/sounds
 mount --bind /mnt/data/audio_custom /mnt/resources/audio_custom
 ```
 NOTE: The mount is discarded on reboot (FIXME)
